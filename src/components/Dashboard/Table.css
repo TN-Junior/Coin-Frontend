@@ -1,0 +1,111 @@
+.box {
+  width: 210px;
+  height: 110px;
+  background-color: #FFFFFF;
+  margin-right: 1cm;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 35px;
+  position: relative;
+}
+
+.box:first-child {
+  margin-left: 1cm;
+  border-top: 20px solid #E1B20C;
+}
+
+.box-title {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.box:nth-child(2) {
+  border-top: 20px solid #C20202;
+}
+
+/* Estilo para a borda superior da terceira caixa */
+.box:nth-child(3) {
+  border-top: 20px solid #352D67;
+}
+
+/* Estilo para a borda superior da quarta caixa */
+.box:nth-child(4) {
+  border-top: 20px solid #0CB531;
+}
+
+.dashboard-page {
+  padding: 20px;
+  margin: 0vw 3vw;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+  width: 10vw;
+}
+
+.dashboard-header h2 {
+  color: #333;
+}
+
+.dashboard-header > button {
+  width: 2vw;
+  height: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #C08900;
+  color: white;
+  font-weight: 700;
+}
+
+.add-button {
+  background-color: #c79e2e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.dashboard-header > button:hover {
+  background-color: #a88228;
+}
+
+.tabledash-container {
+  overflow-x: auto;
+}
+
+.dashboard-tabledash {
+  width: 75vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dashboard-tabledash th, .dashboard-tabledash td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.dashboard-tabledash th {
+  background-color: #C08900;
+  color: #333;
+}
+
+.dashboard-tabledash tr {
+  background-color: #f7f7f7;
+}
+
+.dashboard-tabledash tr:hover {
+  background-color: #ffffff;
+}
