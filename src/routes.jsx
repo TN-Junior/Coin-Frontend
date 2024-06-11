@@ -9,6 +9,7 @@ import Sidebar from './components/PlanoDeContas/Sidebar';
 import Header from './components/PlanoDeContas/Header';
 import Empresa from './components/Empresa/Empresa'
 import Dashboard from './components/Dashboard/dashboard'
+import Usuario from './components/Usuarios/Usuarios';
 
 
 function Main(){
@@ -22,6 +23,7 @@ function Main(){
             <Route path='/plano' element={<Header />}/>
             <Route path='/empresa' element={<Empresa />}/>
             <Route path='/dashboard' element={<Dashboard/>}/>
+            <Route path='/usuario' element={<Usuario />}/>
             </Routes>
         </Router>
     )

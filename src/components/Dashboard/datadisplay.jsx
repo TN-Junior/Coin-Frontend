@@ -21,4 +21,4 @@ const datadisplay = ({ userName }) => {
     );
 };
 
-export default datadisplay;
+export default datadisplay
